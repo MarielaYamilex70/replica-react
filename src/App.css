@@ -1,7 +1,279 @@
 .App {
   text-align: center;
+  color: white;
+  background-color: #2F303A;
+  display: grid;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  grid-template-columns: repeat(2, 1fr);
+    
+
 }
 
+.header_logo{
+  width : 30px;
+}
+
+Link{
+  color: white;
+}
+
+Link:hover{
+  color: #202027;
+}
+
+
+.link_nav{
+  color: white;
+  
+}
+
+.link_nav:hover{
+  color: #202027;
+    
+}
+
+.link_header{
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+    
+}
+
+.header_l{
+  /*background-color: aqua;*/
+  padding: 0px;
+  
+
+}
+
+.header_alin{
+  vertical-align: middle;
+  padding-top: 1em;
+  padding: 8px !important;
+}
+
+.header_r{
+  /*background-color: blueviolet;*/
+  padding: 0px;
+  
+}
+
+
+
+@media (min-width: 376px) {
+
+  .Main{
+    /*text-align: center;*/
+    color: white;
+    background-color: #2F303A;
+    width: 100vw;
+    height: 85vh;
+  }
+
+  .contenedor{
+    /*display: flex;*/
+    /*flex-flow: column wrap;*/
+    /*flex-direction: row;*/
+    /* Flexbox */
+    display:flex;
+    flex-direction: row;
+    padding: 5em; 
+    justify-content: center;
+    align-content: space-around;
+    align-items: stretch;
+    width: 100vw;
+    height: 85vh;
+    margin: 0em;
+    /*background-color: green;*/
+  }
+
+
+  .items_contenedor{
+    width: 45%;
+    /*background-color: blueviolet;*/
+    align-items: flex-end;
+  }
+
+  .items_pad_dis{
+    padding-top: 4em;
+  }
+  
+  .img_girl{
+    height: 100%;
+    align-self:flex-end;
+  }
+
+  .img_covers{
+    height: 80%;
+    align-self:flex-end;
+  }
+
+  .iconos{
+    width: 65px;
+    height: 65px;
+    background-color: #202027;
+    border-color: #202027;
+    color: white;
+    margin: 1em;
+
+  }
+  .imagen_icon{
+    width: 30px;
+   
+  }
+
+  .form_join{
+    background-color: #202027;
+    padding: 3em;
+    border-radius:22px;
+    width: 70%;
+  }
+
+  .labeljoin{
+    font-size: 1em;
+  }
+
+  .inputjoin{
+    background-color: #202027;
+    border-radius:5px;
+    border:2px solid #2E3852;
+    outline: none;
+    width: 100%;
+  }
+
+
+  input:focus{
+    border:1px solid #596da0;
+    border-radius:5px;
+  }
+
+  .footerm{
+    text-align: center;
+    color: white;
+    background-color: #202027;
+    display: grid;
+    width: 100%;
+    height: 7vh;
+    margin: 0px;
+    padding: 0px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .img_footer{
+    width: 20%;
+  }
+  
+} 
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 375px) {
+  .Main{
+    /*text-align: center;*/
+    color: white;
+    background-color: #2F303A;
+    width: 100vw;
+    height: 65vh;
+  }
+
+  .contenedor{
+    /*background-color: aqua;*/
+    flex-direction: column;
+    padding: 1.5em; 
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0em;
+
+  }
+  .items_contenedor{
+    width: 100%;
+    /*background-color: blueviolet;*/
+    
+  }
+  .items_pad{
+    padding-top: 5em;
+  }
+
+  .items_alin_dis{
+    text-align: center;
+  }
+
+  .img_girl{
+    display:none; }
+
+  .img_covers{
+    align-items: center;
+    width: 80%;
+    
+  }
+
+  .iconos{
+    width: 65px;
+    height: 65px;
+    background-color: #202027;
+    border-color: #202027;
+    color: white;
+    margin: 1em;
+
+  }
+  .imagen_icon{
+    width: 30px;
+   
+  }
+  
+  .form_join{
+    background-color: #202027;
+    padding: 3em;
+    border-radius:22px;
+    width: 100%;
+  }
+
+  .labeljoin{
+    font-size: 1em;
+    color: white;
+  }
+
+  .inputjoin{
+    background-color: #202027;
+    border-radius:5px;
+    border:2px solid #2E3852;
+    outline: none;
+    width: 100%;
+  }
+
+
+  input:focus{
+    border:1px solid #596da0;
+    border-radius:5px;
+  }
+
+  .footerm{
+    text-align: center;
+    color: white;
+    background-color: #202027;
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    margin: 0px;
+    padding: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 9px;
+  }
+
+  .img_footer{
+    width: 20%;
+  }
+  
+}
+
+
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +308,4 @@
     transform: rotate(360deg);
   }
 }
+*/
